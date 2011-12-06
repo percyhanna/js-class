@@ -274,4 +274,4 @@
         // return class
         return klass;
     };
-})(typeof exports === 'undefined' ? {} : exports);
+})(typeof exports === 'undefined' ? window.Class = {} : exports);
